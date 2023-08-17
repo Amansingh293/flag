@@ -1,5 +1,5 @@
 html{
-    background-image: linear-gradient(140deg , orange, white, green);
+    background-image: radial-gradient(circle, orange, white, green) ;
     margin: 0;
     position: fixed;
     top:0;
@@ -10,7 +10,7 @@ html{
 }
 
 .container {
-    margin-top: 5%;
+    margin-top: 7%;
     display: grid;
     justify-content: center;
     box-sizing: border-box;
@@ -23,7 +23,6 @@ html{
        'poll box2 box2 box2 box2'
        'poll box3 box3 box3 box3'
        'poll box3 box3 box3 box3'
-       'poll . . . .'
        'poll . . . .'
        'poll . . . .'
        'poll . . . .'
